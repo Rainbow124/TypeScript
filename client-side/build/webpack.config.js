@@ -1,5 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const CleanWebpackPlugin = require('clean-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
     entry: "./src/index.ts",
@@ -7,7 +7,7 @@ module.exports = {
         filename: "main.js"
     },
     resolve: {
-        extensions: [".ts",".tsx",".js"]
+        extensions: [".ts", ".tsx", ".js"]
     },
     module: {
         rules: [{
@@ -16,16 +16,15 @@ module.exports = {
             exclude: /node_modules/
         }]
     },
-    devtool: process.env.NODE_ENV === 'production' ?  false : 'inline-source-map',
+    devtool: process.env.NODE_ENV === 'production' ? false : 'inline-source-map',
     devServer: {
         contentBase: './dist',
-        stats: 'error-only',
         compress: false,
-        host: 'locahost',
+        host: 'localhost',
         port: 8080
     },
     plugins: [
-        new CleanWebpackPlugin ({
+        new CleanWebpackPlugin({
             cleanOnceBeforeBuildPatterns: ['./dist']
         }),
         new HtmlWebpackPlugin({
