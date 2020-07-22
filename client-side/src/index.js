@@ -1,1 +1,2 @@
-var num = 123;
+"use strict";
+// let num: number = 123
