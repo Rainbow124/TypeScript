@@ -1,2 +1,5 @@
 // import './example/interface'
-import './example/function'
+// import './example/function'
+// import './example/generics'
+// import './example/es6-class.js'
+import './example/class'

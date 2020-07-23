@@ -27,6 +27,9 @@ const handleData2 = (...args:number[]) => {
 // - 为函数定义类型
 // - 完整的函数类型
 // - 使用接口定义函数类型
+
+// 接口中函数的定义
+type Student = (x: string, y: number) => string
 // - 使用类型别名
 
 // 声明函数方式的理解：
@@ -38,6 +41,6 @@ const handleData2 = (...args:number[]) => {
 // - 默认参数
 // - 剩余参数
 
-type Student = (x: string, y: number) => string
+
 
 // # 重载
