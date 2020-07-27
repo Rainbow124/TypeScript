@@ -44,3 +44,17 @@ type Student = (x: string, y: number) => string
 
 
 // # 重载
+// 重载允许一个函数 reverse， 输入数字 123 的时候，输出反转的数字 321，输入字符串 'hello' 的时候，输出反转的字符串’olleh'.
+
+function reverse(x: string):string;
+function reverse(x: number):number;
+function reverse(x: string | number): string | number | void{
+    if (typeof x === 'number') return Number(x.toString().split('').reverse().join(''))
+    else if (typeof x === 'string') return x.split('').reverse().join('')
+};
+
+// ps:  不要混淆了 Typescipt 中的 => 和 ES6 中的 =>
+
+let mySum:(x: number, y:number) => number = (x:number, y:number):number  =>{
+    return x + y
+}
