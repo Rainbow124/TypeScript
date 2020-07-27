@@ -43,3 +43,5 @@ let person: Person = {
 // function printMan( person: Person) {
 //     console.log( `我是 ${person.name}, 我今年 ${person.age},我的工作是${person.job}`);
 // }
+
+// ps： 一旦定义了任意属性，那么确定属性和可选属性的类型都必须是它的类型的子集
