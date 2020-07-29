@@ -6,4 +6,5 @@
 // import './example/generics'
 // import './example/es6-class.js'
 // import './example/class'
-import './example/enum'
+// import './example/enum'
+import './example/interface-compablity'
