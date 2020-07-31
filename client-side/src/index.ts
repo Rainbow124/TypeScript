@@ -7,4 +7,5 @@
 // import './example/es6-class.js'
 // import './example/class'
 // import './example/enum'
-import './example/interface-compablity'
+// import './example/interface-compablity'
+import './example/advanced-type1'

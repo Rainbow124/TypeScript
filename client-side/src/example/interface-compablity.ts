@@ -49,4 +49,4 @@ let y = (b: number, c: string) => 0
 const arrs = [1, 2, 3]
 arrs.forEach((item) => {
     console.log(item)
-}) 
+})
