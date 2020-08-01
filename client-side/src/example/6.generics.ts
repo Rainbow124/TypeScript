@@ -18,7 +18,7 @@
 // }
 
 // getArray(123, 3).map((item) => item.length)
-// 
+//
 // type GetArray = <T>(arg: T, times: number) => T[]
 
 // let getArray: GetArray = (arg: any, times: number) => {
