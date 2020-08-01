@@ -5,12 +5,20 @@
     ],
     "jsRules": {},
     "rules": {
-        "quotemark":false,
-        "semicolon":false,
-        "interface-name": [true, "never-prefix"],
-        "console.log": [false],
+        "quotemark": false,
+        "semicolon": false,
+        "interface-name": [
+            true,
+            "never-prefix"
+        ],
+        "console.log": [
+            false
+        ],
         "max-classes-per-file": false,
-        "no-console": [false]
+        "no-console": [
+            false
+        ],
+        "no-empty": false
     },
     "rulesDirectory": []
 }
