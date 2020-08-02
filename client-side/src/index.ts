@@ -8,4 +8,5 @@
 // import './example/class'
 // import './example/enum'
 // import './example/interface-compablity'
-import './example/12.advanced-type1'
+// import './example/12.advanced-type1'
+import './example/13.advanced-type2'
