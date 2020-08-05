@@ -10,4 +10,6 @@
 // import './example/interface-compablity'
 // import './example/12.advanced-type1'
 // import './example/13.advanced-type2'
-import './modules/index'
+// import './modules/index'
+// import './example/17.decoratirs'
+import './example/19.upate'
