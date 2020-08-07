@@ -12,4 +12,5 @@
 // import './example/13.advanced-type2'
 // import './modules/index'
 // import './example/17.decoratirs'
-import './example/19.upate'
+// import './example/19.upate'
+import './example/20.declare-files'
